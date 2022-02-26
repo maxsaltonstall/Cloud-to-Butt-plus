@@ -1,4 +1,4 @@
-NSFW cloud-to-butt
+Cloud-to-butt plus
 =============
 
 Chrome extension that replaces many occurrences of words with other humorous words
