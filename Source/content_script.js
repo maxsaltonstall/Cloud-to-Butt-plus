@@ -143,6 +143,22 @@ function handleText(textNode)
 	v = v.replace(/\bCandidate\b/g, "Convict");
 	v = v.replace(/\bDrone\b/g, "Dolphin");
 	v = v.replace(/\bdrone\b/g, "dolphin");
+	v = v.replace(/\bPolitical\b/g, "Illegal");
+	v = v.replace(/\bpolitical\b/g, "illegal");
+	v = v.replace(/\bnew\b/g, "nude");
+	v = v.replace(/\bNew\b/g, "Nude");
+	v = v.replace(/\bparty\b/g, "group of dudes");
+	v = v.replace(/\bParty\b/g, "Group of dudes");
+	v = v.replace(/\bPutin\b/g, "Poopin");
+	v = v.replace(/\bBiden\b/g, "Bidet");
+	v = v.replace(/\bToilet\b/g, "Constipation station");
+	v = v.replace(/\btoilet\b/g, "constipation station");
+	v = v.replace(/\bDictator\b/g, "Supreme emperor");
+	v = v.replace(/\bdictator\b/g, "supreme emperor");
+	v = v.replace(/\bFalse\b/g, "Definitely true");
+	v = v.replace(/\bfalse\b/g, "definitely true");
+	v = v.replace(/\bmental\b/g, "bowel");
+	v = v.replace(/\bMental\b/g, "Bowel");
 	
 	textNode.nodeValue = v;
 }
