@@ -159,6 +159,20 @@ function handleText(textNode)
 	v = v.replace(/\bfalse\b/g, "definitely true");
 	v = v.replace(/\bmental\b/g, "bowel");
 	v = v.replace(/\bMental\b/g, "Bowel");
+	v = v.replace(/\bGood\b/g, "Utterly, totally terrible and horrible");
+	v = v.replace(/\bgood\b/g, "utterly, totally terrible and horrible");
+	v = v.replace(/\bfirst\b/g, "last");
+	v = v.replace(/\bFirst\b/g, "Last");
+	v = v.replace(/\bLong\b/g, "Small");
+	v = v.replace(/\blong\b/g, "small");
+	v = v.replace(/\bGreat\b/g, "Chaotic");
+	v = v.replace(/\bgreat\b/g, "chaotic");
+	v = v.replace(/\bLittle\b/g, "Ginourmous");
+	v = v.replace(/\blittle\b/g, "ginourmous");
+	v = v.replace(/\bpublic\b/g, "pubic");
+	v = v.replace(/\bPublic\b/g, "Pubic");
+	v = v.replace(/\bspeak\b/g, "yell");
+	v = v.replace(/\bSpeak\b/g, "Yell");
 	
 	textNode.nodeValue = v;
 }
